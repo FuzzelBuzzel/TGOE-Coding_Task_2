@@ -30,12 +30,12 @@ Die Laufzeit beträgt 200ms
 
 ## Wie kann die Robustheit sichergestellt werden, vor allem auch mit Hinblick auf sehr große Eingaben?
 
-Durch das Abfangen von fehlerhaften Eingaben oder Datentypen kann die Robustheit der Software verbessert werden.
-Sehr große Intervalle können durch vorheriges Überprüfen nicht zugelassen werden.
+Durch das Abfangen von fehlerhaften Eingaben oder Datentypen kann die Robustheit der Software verbessert werden,
+eine Prüfung auf eine leere Liste ist beispielsweiße implementiert.
+Zusätzlich könnten sehr große Intervalle durch vorheriges überprüfen abgelehnt werden.
 
 ## Wie verhält sich der Speicherverbrauch ihres Programms?
---
-
+Der Datenspeicher wird vom Skript nicht verwendet und der Arbeitsspeicherverbrauch wird durch eine Beschränkung auf die notwendigen Variablen und Funktionen sichergestellt. 
 
 
 
